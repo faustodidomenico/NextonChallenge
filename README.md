@@ -15,5 +15,6 @@
 
 ## Test file:
 * Open a terminal in this folder.
+* run `npm install jest`
 * run `npm test`
 * If you want to add a new test, go to `test/calculator.test.js` and write the new test.

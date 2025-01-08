@@ -18,3 +18,9 @@
 * run `npm install jest`
 * run `npm test`
 * If you want to add a new test, go to `test/calculator.test.js` and write the new test.
+
+
+## Notes:
+I run this project in the next enviroment:
+* Ubuntu: 24.04
+* node: v22.12.0

@@ -9,7 +9,7 @@ Receive an expression as string a return the expression expressed as array. Each
 Example: parseExp("10 * (2+5) * 10") -> ['10', '*', '(2+5)', '*', 10]
 */
 function parseExp(expression) {
-    expression = expression.replaceAll(" ", "");
+    expression = expression.replace(/\s/g, '');
     let actualDigit = '';
     let actualExpression = '';
     let expressionAsArray = [];
